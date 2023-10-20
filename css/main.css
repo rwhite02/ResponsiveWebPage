@@ -73,3 +73,11 @@
     text-align: left;
   }
 }
+
+.content {
+  background-image: url('img/poker-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
