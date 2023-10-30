@@ -15,17 +15,26 @@
 
     <!-- Navigation bar -->
     <div class="topnav" id="myTopnav">
+        
         <!-- Active link pointing to the index.html page -->
         <a class="active" href="index.html">Abstract</a>
-
+        
         <!-- Links to other sections -->
         <a href="section1.html">Unkown Origins</a>
         <a href="section2.html">Adopted by Vegas</a>
         <a href="section3.html">Texas Hold 'em in Popular Media</a>
-
-        <!-- Additional links -->
-        <a href="see_also.html">See Also</a>
         <a href="references.html">References</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">See Also
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="https://stageandcinema.com/2023/04/28/mastering-the-game-of-poker/">Benefits of Poker Mastery</a>
+              <a href="https://pokerfuse.com/live-poker/wsop/wsop-2024/#:~:text=The%20WSOP%202024%20will%20be,Jersey%2C%20Michigan%2C%20and%20Pennsylvania.">2024 World Series of Poker Details</a>
+              <a href="https://www.pokernews.com/poker-rules/texas-holdem.htm">How to Play Texas Hold 'em</a>
+            </div>
+        </div>
 
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
         <a href="javascript:void(0);" class="icon">
@@ -36,7 +45,6 @@
     <!-- Page content -->
     <div class="content">
         <!-- Abstract section -->
-        <br>
         <br>
         Texas Hold 'em has become an iconic variant of the classic gambling card game. Texas Hold 'em contains a unique blend
         of luck, skill, and psychology, as the players have crucial decisions to make on when and how much to bet, when to fold,
@@ -50,15 +58,14 @@
         due to its TV coverage and main event in the World Series of Poker.
         <br>
         <br>
-        <!-- Displaying the cover image in a scaled size -->
-        <!-- Here is the cover image in a scaled size: -->
+        <div class="image">
+            <img src="img/royal-flush.jpg" style="width: 100%; height: auto;">
+            <div class="text-block">
+                <p>Royal Flush, objectively the best hand in poker</p>
+            </div>
+        </div>
         <br>
-        <img src="img/royal-flush.jpg" style="width: 100%; height: auto;">
-        <br>
-        <br>
-        <!-- Displaying the cover image in its original size -->
-        <!-- Here is the cover image in its original size: -->
-        <!-- <img src="img/royal-flush.jpg"> -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </div>
 
     <!-- Including the main.js file for JavaScript functionality -->
